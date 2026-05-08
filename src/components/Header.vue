@@ -2,11 +2,14 @@
   <header class="bg-navy w-full relative">
     <div class="flex items-center justify-between px-6 py-4 md:px-10 lg:px-14 xl:px-20">
 
-      <!-- Logo NSIA -->
+      <!-- Logo NSIA — eager + high priority (above fold) -->
       <img
         src="/images/ logo-nsia.png"
         alt="NSIA Assurances"
         class="h-16 md:h-20 lg:h-24 w-auto object-contain"
+        loading="eager"
+        fetchpriority="high"
+        decoding="async"
       />
 
       <!-- Hamburger menu -->
@@ -54,21 +57,8 @@
                   @click="menuOpen = false"
                 >
                   <span>Politique de confidentialité</span>
-                  <!-- Flèche droite -->
-                  <svg
-                    class="w-4 h-4 flex-shrink-0 ml-3"
-                    viewBox="0 0 20 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true"
-                  >
-                    <path
-                      d="M4 10 H16 M11 5 L16 10 L11 15"
-                      stroke="white"
-                      stroke-width="1.8"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
+                  <svg class="w-4 h-4 flex-shrink-0 ml-3" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                    <path d="M4 10 H16 M11 5 L16 10 L11 15" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
                 </RouterLink>
               </li>
@@ -93,8 +83,5 @@ import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 
 const menuOpen = ref(false)
-
-const toggleMenu = () => {
-  menuOpen.value = !menuOpen.value
-}
+const toggleMenu = () => { menuOpen.value = !menuOpen.value }
 </script>

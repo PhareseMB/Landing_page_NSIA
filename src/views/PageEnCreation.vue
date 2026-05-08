@@ -6,9 +6,12 @@
       <div class="flex items-center justify-between px-6 py-4 md:px-10 lg:px-14 xl:px-20">
         <RouterLink to="/">
           <img
-            src="public/images/ logo-nsia.png"
-            alt="NSIA Assurances"
+            src="/images/ logo-nsia.png"
+            alt="NSIA Assurances – Retour à l'accueil"
             class="h-16 md:h-20 lg:h-24 w-auto object-contain"
+            loading="eager"
+            fetchpriority="high"
+            decoding="async"
           />
         </RouterLink>
       </div>
@@ -17,12 +20,16 @@
     <!-- Contenu principal -->
     <main class="flex-1 flex flex-col items-center justify-center px-6 py-20 text-center">
 
-      <!-- Icône animée -->
+      <!-- Image construction -->
       <div class="mb-10">
         <img
-          src="/images/ logo-nsia.png"
+          src="/images/construction.png"
           alt="Page en construction"
           class="w-32 h-32 mx-auto object-contain"
+          loading="lazy"
+          decoding="async"
+          width="128"
+          height="128"
         />
       </div>
 
@@ -60,8 +67,10 @@
     <!-- Footer -->
     <footer class="w-full bg-navy border-t border-white/10">
       <div class="flex flex-row items-center justify-between px-6 py-5 md:px-10 lg:px-16 xl:px-20">
-        <img src="/images/bureau-veritas.png" alt="Bureau Veritas – ISO 9001" class="h-10 md:h-12 w-auto object-contain" />
-        <img src="/images/nsia-white.png" alt="" aria-hidden="true" class="h-5 md:h-6 w-auto object-contain opacity-90" />
+        <img src="/images/bureau-veritas.png" alt="Bureau Veritas – ISO 9001"
+             class="h-10 md:h-12 w-auto object-contain" loading="lazy" decoding="async" width="160" height="48" />
+        <img src="/images/nsia-white.png" alt="" aria-hidden="true"
+             class="h-5 md:h-6 w-auto object-contain opacity-90" loading="lazy" decoding="async" width="80" height="24" />
       </div>
     </footer>
 
