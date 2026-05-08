@@ -20,7 +20,7 @@
       <!-- Icône animée -->
       <div class="mb-10">
         <img
-          src="/images/construction.png"
+          src="/images/ logo-nsia.png"
           alt="Page en construction"
           class="w-32 h-32 mx-auto object-contain"
         />
