@@ -4,7 +4,7 @@
 
       <!-- Logo NSIA — eager + high priority (above fold) -->
       <img
-        src="/images/ logo-nsia.png"
+        src="/images/logo-nsia.png"
         alt="NSIA Assurances"
         class="h-16 md:h-20 lg:h-24 w-auto object-contain"
         loading="eager"

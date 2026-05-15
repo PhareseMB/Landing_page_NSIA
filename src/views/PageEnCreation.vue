@@ -6,7 +6,7 @@
       <div class="flex items-center justify-between px-6 py-4 md:px-10 lg:px-14 xl:px-20">
         <RouterLink to="/">
           <img
-            src="/images/ logo-nsia.png"
+            src="/images/logo-nsia.png"
             alt="NSIA Assurances – Retour à l'accueil"
             class="h-16 md:h-20 lg:h-24 w-auto object-contain"
             loading="eager"

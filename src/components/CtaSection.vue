@@ -22,27 +22,16 @@
             aria-hidden="true"
             class="w-10 h-9 md:w-14 md:h-11"
           >
-            <path
-              d="M4 6 C6 18, 20 32, 36 34"
-              stroke="white"
-              stroke-width="2.2"
-              stroke-linecap="round"
-              fill="none"
-            />
-            <path
-              d="M30 28 L36 34 L26 37"
-              stroke="white"
-              stroke-width="2.2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              fill="none"
-            />
+            <path d="M4 6 C6 18, 20 32, 36 34" stroke="white" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+            <path d="M30 28 L36 34 L26 37" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
           </svg>
         </span>
 
-        <!-- Bouton CTA -->
-        <RouterLink
-          to="/en-creation"
+        <!-- Bouton CTA — lien externe formulaire -->
+        <a
+          href="https://eur05.safelinks.protection.outlook.com/?url=https%3A%2F%2Fforms.cloud.microsoft%2FPages%2FResponsePage.aspx%3Fid%3D0pJwRgt54U2bPjizhOsqIaiEtWUpoLBEmGw3567pJgdUQjFEVDhaU0k4V1YxN0RDRlVLQVJTM1NMUi4u&data=05%7C02%7Cjeremie.mboma%40nsiaassurances.com%7Cd5fcd2ce5a7247f970b208deb0c68f77%7C467092d2790b4de19b3e38b384eb2a21%7C1%7C0%7C639142564078079498%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=vQ%2B0yWwLQ3Z%2FYniUhHUnL3%2BZWvglXmhLJiDBAOzdvIA%3D&reserved=0"
+          target="_blank"
+          rel="noopener noreferrer"
           class="flex-shrink-0 bg-gold text-white font-semibold
                  px-6 py-3 md:px-8 md:py-4
                  text-sm md:text-base
@@ -53,7 +42,7 @@
           style="border-radius: 10px;"
         >
           Je remplis le formulaire
-        </RouterLink>
+        </a>
 
       </div>
 
@@ -62,5 +51,4 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router'
 </script>
