@@ -6,7 +6,7 @@
       <p class="text-white font-normal leading-relaxed
                  text-base md:text-lg lg:text-xl
                  max-w-xs md:max-w-2xl lg:max-w-3xl">
-        Auto , Habitation, voyage, épargne, retraite, prévoyance&nbsp;:
+        Auto , habitation, voyage, épargne, retraite, prévoyance&nbsp;:
         Remplissez le formulaire et un conseiller vous rappelle.
       </p>
 
