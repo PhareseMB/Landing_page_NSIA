@@ -51,7 +51,7 @@
       <div class="px-6 pt-7 pb-2">
         <h1 class="text-white font-bold leading-tight text-4xl tracking-tight">
           Votre<br />
-          <span class="text-gold">assurance</span><br />
+          <span class="text-gold">Sérénité</span><br />
           commence ici
         </h1>
         <div class="mt-3 w-16" style="height: 5px; background-color: #C5962B; border-radius: 2px;"></div>
