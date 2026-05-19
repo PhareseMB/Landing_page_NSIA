@@ -24,7 +24,7 @@
       >
         <h1 class="text-white font-bold leading-tight tracking-tight"
             style="font-size: clamp(2rem, 4.5vw, 4rem);">
-          Votre assurance<br />commence ici.
+          Votre sérénitté<br />commence ici.
         </h1>
       </div>
 
