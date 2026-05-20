@@ -22,8 +22,23 @@
             aria-hidden="true"
             class="w-10 h-9 md:w-14 md:h-11"
           >
-            <path d="M4 6 C6 18, 20 32, 36 34" stroke="white" stroke-width="2.2" stroke-linecap="round" fill="none"/>
-            <path d="M30 28 L36 34 L26 37" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <path
+              d="M4 6 C6 18, 20 32, 36 34"
+              stroke="white"
+              stroke-width="3.2"
+              stroke-linecap="round"
+              fill="none"
+              class="arrow-curve"
+            />
+            <path
+              d="M30 28 L36 34 L26 37"
+              stroke="white"
+              stroke-width="3.2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              fill="none"
+              class="arrow-tip"
+            />
           </svg>
         </span>
 
@@ -52,3 +67,37 @@
 
 <script setup>
 </script>
+
+<style scoped>
+/* Tracé progressif de la courbe */
+.arrow-curve {
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+  animation: draw-curve 1.8s ease-in-out infinite;
+}
+
+/* Tracé de la pointe, décalé pour suivre la courbe */
+.arrow-tip {
+  stroke-dasharray: 25;
+  stroke-dashoffset: 25;
+  animation: draw-tip 1.8s ease-in-out infinite;
+}
+
+@keyframes draw-curve {
+  0%   { stroke-dashoffset: 50; opacity: 0; }
+  8%   { opacity: 1; }
+  40%  { stroke-dashoffset: 0; opacity: 1; }
+  75%  { stroke-dashoffset: 0; opacity: 1; }
+  90%  { opacity: 0; }
+  100% { stroke-dashoffset: 50; opacity: 0; }
+}
+
+@keyframes draw-tip {
+  0%, 28% { stroke-dashoffset: 25; opacity: 0; }
+  38%     { opacity: 1; }
+  55%     { stroke-dashoffset: 0; opacity: 1; }
+  75%     { stroke-dashoffset: 0; opacity: 1; }
+  90%     { opacity: 0; }
+  100%    { stroke-dashoffset: 25; opacity: 0; }
+}
+</style>
