@@ -6,8 +6,8 @@
       <p class="text-white font-normal leading-relaxed
                  text-base md:text-lg lg:text-xl
                  max-w-xs md:max-w-2xl lg:max-w-3xl">
-        Auto,habitation,voyage,épargne,retraite,prévoyance&nbsp;:
-        Remplissez le formulaire et un conseillervous rappelle.
+        Auto, habitation,voyage,épargne,retraite,prévoyance&nbsp;:
+        Remplissez le formulaire et un conseillervous rappelle...
       </p>
 
       <!-- Flèche + Bouton décalés vers le centre -->
