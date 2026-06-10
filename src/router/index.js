@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomePage from '../views/HomePage.vue'
 import PageEnCreation from '../views/PageEnCreation.vue'
+import Kinda from '../views/Kinda.vue'
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: '/en-creation',
     name: 'en-creation',
     component: PageEnCreation,
+  },
+  {
+    path: '/kinda',
+    name: 'kinda',
+    component: Kinda,
   },
 ]
 
