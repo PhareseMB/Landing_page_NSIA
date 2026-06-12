@@ -199,7 +199,7 @@
 
       <!-- Droite : photo famille -->
       <div data-reveal="right" class="relative min-h-[300px] lg:min-h-[480px] overflow-hidden rounded-2xl">
-        <img src="/public/images/pic-5.jpg" alt="Famille protégée par NSIA Kinda" class="absolute inset-0 w-full h-full object-cover object-center" loading="lazy" />
+        <img src="/images/pic-5.jpg" alt="Famille protégée par NSIA Kinda" class="absolute inset-0 w-full h-full object-cover object-center" loading="lazy" />
       </div>
     </section>
 
