@@ -50,7 +50,7 @@
             <ul class="py-2">
               <li>
                 <RouterLink
-                  to="/en-creation"
+                  to="/politique-confidentialite"
                   class="flex items-center justify-between px-5 py-4 text-white font-medium text-sm hover:bg-white/10 transition-colors"
                   @click="menuOpen = false"
                 >
@@ -74,9 +74,9 @@
              style="background: radial-gradient(900px 420px at 90% -10%, #eef3fb 0%, transparent 60%);">
 
       <!-- Gauche : image principale -->
-      <div data-reveal="left" class="relative h-[58vw] lg:h-auto min-h-[340px] overflow-hidden">
+      <div data-reveal="left" class="relative h-[58vw] lg:h-auto min-h-[340px] overflow-hidden rounded-2xl">
         <img
-          src="/images/pic-1.png"
+          src="/images/magnific.PNG"
           alt="NSIA Kinda – tu glisses mais tu ne tombes pas"
           class="w-full h-full object-cover object-center"
           loading="eager"
@@ -126,10 +126,10 @@
             <img src="/images/pic-2.png" alt="Couple – épargne et projets" class="w-full h-full object-cover" loading="lazy" />
           </div>
           <div class="aspect-square overflow-hidden rounded-md" style="border: 3px solid #C89B2C;">
-            <img src="/images/pic-3.jpg" alt="Entrepreneur – protection financière" class="w-full h-full object-cover" loading="lazy" />
+            <img src="/images/Image-28.png" alt="Entrepreneur – protection financière" class="w-full h-full object-cover" loading="lazy" />
           </div>
           <div class="aspect-square overflow-hidden rounded-md" style="border: 3px solid #C89B2C;">
-            <img src="/images/pic-4.jpg" alt="Famille – garantie vie" class="w-full h-full object-cover" loading="lazy" />
+            <img src="/images/Image-27.png" alt="Famille – garantie vie" class="w-full h-full object-cover" loading="lazy" />
           </div>
         </div>
       </div>
@@ -192,14 +192,14 @@
           </li>
           <li class="flex items-start gap-3 text-[#1c2445]" style="font-size: clamp(0.9rem, 1.3vw, 1.05rem);">
             <svg class="mt-1 w-5 h-5 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="#C89B2C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 6"/></svg>
-            <span>Tu garantis à ta famille un montant de <strong>300&nbsp;000&nbsp;FCFA</strong> en cas de coup dur.</span>
+            <span>Tu garantis à ta famille un montant de <strong>250&nbsp;000&nbsp;FCFA</strong> en cas de coup dur.</span>
           </li>
         </ul>
       </div>
 
       <!-- Droite : photo famille -->
-      <div data-reveal="right" class="h-[70vw] lg:h-auto min-h-[300px] lg:min-h-[480px] overflow-hidden">
-        <img src="/images/pic-5.jpg" alt="Famille protégée par NSIA Kinda" class="w-full h-full object-cover object-center" loading="lazy" />
+      <div data-reveal="right" class="relative min-h-[300px] lg:min-h-[480px] overflow-hidden rounded-2xl">
+        <img src="/images/pic-5.jpg" alt="Famille protégée par NSIA Kinda" class="absolute inset-0 w-full h-full object-cover object-center" loading="lazy" />
       </div>
     </section>
 
@@ -256,14 +256,16 @@
 
         <!-- Bouton CTA -->
         <div data-reveal="scale" class="relative z-10 mb-2" style="--reveal-delay: 300ms;">
-          <RouterLink
-            to="/en-creation"
+          <a
+            href="https://eur05.safelinks.protection.outlook.com/?url=https%3A%2F%2Fforms.office.com%2FPages%2FResponsePage.aspx%3Fid%3D0pJwRgt54U2bPjizhOsqIaiEtWUpoLBEmGw3567pJgdUMjBNT0FWVUxRNlhPVE9VWlMyNEZDMVRaVC4u&data=05%7C02%7Cjeremie.mboma%40nsiaassurances.com%7Ce8d437cf82bd4381b30a08dec7113b7b%7C467092d2790b4de19b3e38b384eb2a21%7C1%7C0%7C639167074330795549%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=IIaOh9KkJUhm02qr3OkHPr02LUnc5KfdfUyMOQrR55w%3D&reserved=0"
+            target="_blank"
+            rel="noopener noreferrer"
             class="w-full flex items-center justify-center text-white font-bold py-4 text-base md:text-lg
                    transition-opacity duration-200 hover:opacity-90"
             style="background: linear-gradient(135deg, #1c2445 0%, #2e3a6e 100%); border-radius: 12px;"
           >
             Je souscris maintenant
-          </RouterLink>
+          </a>
           <div class="flex justify-center mt-1.5">
           </div>
         </div>

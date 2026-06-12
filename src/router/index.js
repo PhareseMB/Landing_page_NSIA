@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomePage from '../views/HomePage.vue'
 import PageEnCreation from '../views/PageEnCreation.vue'
 import Kinda from '../views/Kinda.vue'
+import PolitiqueConfidentialite from '../views/PolitiqueConfidentialite.vue'
 
 const routes = [
   {
@@ -18,6 +19,11 @@ const routes = [
     path: '/kinda',
     name: 'kinda',
     component: Kinda,
+  },
+  {
+    path: '/politique-confidentialite',
+    name: 'politique-confidentialite',
+    component: PolitiqueConfidentialite,
   },
 ]
 
