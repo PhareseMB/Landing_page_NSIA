@@ -101,23 +101,26 @@
 
           <p data-reveal="up" class="text-[#1c2445] leading-relaxed mb-8"
              style="font-size: clamp(0.95rem, 1.4vw, 1.15rem); --reveal-delay: 120ms;">
-            Pour seulement <strong>15&nbsp;000&nbsp;FCFA par an</strong>, épargne pour tes
-            projets, protège-toi et soigne-toi. NSIA KINDA, c'est fait pour toi&nbsp;!
+            Pour seulement <strong>15&nbsp;000&nbsp;FCFA par an</strong>, bénéficie d'une protection, 
+            d'un appui pour tes proches, tout en épargnant à ton rythme.
+        
           </p>
 
-          <button
+          <a
+            href="https://eur05.safelinks.protection.outlook.com/?url=https%3A%2F%2Fforms.office.com%2FPages%2FResponsePage.aspx%3Fid%3D0pJwRgt54U2bPjizhOsqIaiEtWUpoLBEmGw3567pJgdUMjBNT0FWVUxRNlhPVE9VWlMyNEZDMVRaVC4u&data=05%7C02%7Cjeremie.mboma%40nsiaassurances.com%7Ce8d437cf82bd4381b30a08dec7113b7b%7C467092d2790b4de19b3e38b384eb2a21%7C1%7C0%7C639167074330795549%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=IIaOh9KkJUhm02qr3OkHPr02LUnc5KfdfUyMOQrR55w%3D&reserved=0"
+            target="_blank"
+            rel="noopener noreferrer"
             data-reveal="scale"
             class="inline-flex items-center gap-2 font-bold text-sm px-6 py-3 rounded-xl cursor-pointer text-[#1c2445]
                    bg-gradient-to-b from-[#eef2fa] to-[#cfd9ef] border border-white shadow-md
                    hover:-translate-y-0.5"
             style="--reveal-delay: 240ms;"
-            @click="scrollToSubscribe"
           >
             Je souscris
             <svg class="w-5 h-5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path d="M5 3L19.5 11L12.5 13.5L9.5 21L5 3Z" fill="#1c2445" stroke="#1c2445" stroke-width="0.5" stroke-linejoin="round"/>
             </svg>
-          </button>
+          </a>
         </div>
 
         <!-- 3 petites photos carrées avec bordure or (stagger) -->
@@ -143,15 +146,15 @@
 
         <h2 data-reveal="up" class="text-[#1c2445] font-black uppercase mb-5"
             style="font-size: clamp(1.4rem, 2.2vw, 2rem);">
-          Tu côtises, tu récupères
+          Une solution simple, accessible et pensée pour le quotidien.
         </h2>
 
-        <p data-reveal="up" class="text-[#54607a] leading-relaxed mb-6"
+        <!-- <p data-reveal="up" class="text-[#54607a] leading-relaxed mb-6"
            style="font-size: clamp(0.92rem, 1.3vw, 1.1rem); --reveal-delay: 100ms;">
           Tu souhaites créer un business&nbsp;? Payer une formation&nbsp;? Ou juste souffler&nbsp;?
           Peu importe ton projet, NSIA Kinda te propose une petite épargne que tu récupères
           au bout de 12&nbsp;mois. En plus, tu assures ta protection contre les imprévus de la vie.
-        </p>
+        </p> -->
 
         <!-- Argument-clé -->
         <div data-reveal="left" class="bg-white rounded-r-xl border-l-4 px-5 py-4 mb-7 shadow-sm"
@@ -184,15 +187,15 @@
         <ul data-stagger class="space-y-4">
           <li class="flex items-start gap-3 text-[#1c2445]" style="font-size: clamp(0.9rem, 1.3vw, 1.05rem);">
             <svg class="mt-1 w-5 h-5 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="#C89B2C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 6"/></svg>
-            Tu reçois un montant d'épargne au bout d'un an.
+            En cas d'accident, tes frais médicaux sont pris en charge;
           </li>
           <li class="flex items-start gap-3 text-[#1c2445]" style="font-size: clamp(0.9rem, 1.3vw, 1.05rem);">
             <svg class="mt-1 w-5 h-5 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="#C89B2C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 6"/></svg>
-            <span>Tes soins sont pris en charge <strong>jusqu'à 200&nbsp;000&nbsp;FCFA</strong> suite à un accident du quotidien.</span>
+            <span>En cas de décès, tes proches bénéficient d'un appui financier; </span>
           </li>
           <li class="flex items-start gap-3 text-[#1c2445]" style="font-size: clamp(0.9rem, 1.3vw, 1.05rem);">
             <svg class="mt-1 w-5 h-5 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="#C89B2C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 6"/></svg>
-            <span>Tu garantis à ta famille un montant de <strong>250&nbsp;000&nbsp;FCFA</strong> en cas de coup dur.</span>
+            <span>Tu commences à constituer une épargne rémunérée avec des versements libres seelon tes possibilités .</span>
           </li>
         </ul>
       </div>
@@ -204,7 +207,7 @@
     </section>
 
     <!-- ═══ SECTION 3 : SOUSCRIRE ═══ -->
-    <section ref="subscribeSection" class="grid grid-cols-1 lg:grid-cols-2 lg:min-h-[640px]">
+    <section class="grid grid-cols-1 lg:grid-cols-2 lg:min-h-[640px]">
 
       <!-- Gauche : photo femme (visible desktop uniquement) -->
       <div data-reveal="left" class="hidden lg:block lg:h-auto lg:min-h-[500px] overflow-hidden">
@@ -302,9 +305,4 @@ import { useReveal } from '../composables/useReveal'
 useReveal()
 
 const menuOpen   = ref(false)
-const subscribeSection = ref(null)
-
-function scrollToSubscribe () {
-  subscribeSection.value?.scrollIntoView({ behavior: 'smooth' })
-}
 </script>
