@@ -275,7 +275,7 @@
 
         <!-- Lien politique -->
         <RouterLink
-          to="/en-creation"
+          to="/politique-confidentialite"
           class="relative z-10 text-center text-sm underline underline-offset-2 hover:opacity-70 transition-opacity"
           style="color: #54607a;"
         >
