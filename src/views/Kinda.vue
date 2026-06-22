@@ -78,7 +78,7 @@
         <img
           src="/images/magnific.PNG"
           alt="NSIA Kinda – tu glisses mais tu ne tombes pas"
-          class="w-full h-auto lg:h-full lg:absolute lg:inset-0 lg:object-cover object-center"
+          class="w-full h-auto object-center"
           loading="eager"
         />
       </div>
