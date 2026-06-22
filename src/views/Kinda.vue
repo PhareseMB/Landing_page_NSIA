@@ -74,11 +74,11 @@
              style="background: radial-gradient(900px 420px at 90% -10%, #eef3fb 0%, transparent 60%);">
 
       <!-- Gauche : image principale -->
-      <div data-reveal="left" class="relative h-[58vw] lg:h-auto min-h-[340px] overflow-hidden rounded-2xl">
+      <div data-reveal="left" class="relative overflow-hidden rounded-2xl">
         <img
           src="/images/magnific.PNG"
           alt="NSIA Kinda – tu glisses mais tu ne tombes pas"
-          class="w-full h-full object-cover object-center"
+          class="w-full h-auto lg:h-full lg:absolute lg:inset-0 lg:object-cover object-center"
           loading="eager"
         />
       </div>
@@ -187,15 +187,15 @@
         <ul data-stagger class="space-y-4">
           <li class="flex items-start gap-3 text-[#1c2445]" style="font-size: clamp(0.9rem, 1.3vw, 1.05rem);">
             <svg class="mt-1 w-5 h-5 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="#C89B2C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 6"/></svg>
-            En cas d'accident, tes frais médicaux sont pris en charge;
+            En cas d'accident, tes frais médicaux sont pris en charge ;
           </li>
           <li class="flex items-start gap-3 text-[#1c2445]" style="font-size: clamp(0.9rem, 1.3vw, 1.05rem);">
             <svg class="mt-1 w-5 h-5 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="#C89B2C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 6"/></svg>
-            <span>En cas de décès, tes proches bénéficient d'un appui financier; </span>
+            <span>En cas de décès, tes proches bénéficient d'un appui financier ; </span>
           </li>
           <li class="flex items-start gap-3 text-[#1c2445]" style="font-size: clamp(0.9rem, 1.3vw, 1.05rem);">
             <svg class="mt-1 w-5 h-5 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="#C89B2C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 6"/></svg>
-            <span>Tu commences à constituer une épargne rémunérée avec des versements libres seelon tes possibilités .</span>
+            <span>Tu commences à constituer une épargne rémunérée avec des versements libres selon tes possibilités.</span>
           </li>
         </ul>
       </div>
@@ -289,7 +289,7 @@
       <div style="height:6px;background-color:#C89B2C;"></div>
       <div class="py-4 text-center">
         <p class="text-white text-xs md:text-sm px-4">
-          Politique de confidentialité&nbsp;&nbsp;|&nbsp;&nbsp;Mentions légales&nbsp;&nbsp;|&nbsp;&nbsp;Liens utiles&nbsp;&nbsp;|&nbsp;&nbsp;Contacts NSIA
+          Politique de confidentialité&nbsp;&nbsp;|&nbsp;&nbsp;Contacts NSIA
         </p>
       </div>
     </footer>

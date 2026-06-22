@@ -51,7 +51,7 @@
             <ul class="py-5">
               <li>
                 <RouterLink
-                  to="/en-creation"
+                  to="/politique-confidentialite"
                   class="flex items-center justify-between px-5 py-5 text-white font-medium text-sm
                          hover:bg-white/10 transition-colors duration-200"
                   @click="menuOpen = false"
