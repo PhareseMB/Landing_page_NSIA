@@ -291,7 +291,7 @@
       <!-- Droite : illustration famille sous parapluie -->
       <div data-reveal="right" class="flex justify-center mt-8 md:mt-0">
         <!-- ════ IMAGE ILLUSTRATION ════ -->
-        <div class="w-full max-w-md bg-gray-50 rounded-2xl overflow-hidden flex items-center justify-center p-6">
+        <div class="w-full max-w-3xl bg-gray-50 rounded-2xl overflow-hidden flex items-center justify-center p-6">
           <img
             src="/images/couverture.svg"
             alt="Famille protégée par NSIA"
