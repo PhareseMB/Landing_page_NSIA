@@ -3,6 +3,7 @@ import HomePage from '../views/HomePage.vue'
 import PageEnCreation from '../views/PageEnCreation.vue'
 import Kinda from '../views/Kinda.vue'
 import PolitiqueConfidentialite from '../views/PolitiqueConfidentialite.vue'
+import OffresNonVie from '../views/OffresNonVie.vue'
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path: '/politique-confidentialite',
     name: 'politique-confidentialite',
     component: PolitiqueConfidentialite,
+  },
+  {
+    path: '/offres-non-vie',
+    name: 'offres-non-vie',
+    component: OffresNonVie,
   },
 ]
 
