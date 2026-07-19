@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-[#f6f8fc] font-sans flex flex-col">
 
-    <NavNonVie />
+    <NavVie />
 
     <!-- Contenu -->
     <main class="flex-1 max-w-3xl w-full mx-auto px-5 py-10 md:px-8">
@@ -238,7 +238,7 @@
 <script setup>
 import { computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import NavNonVie from '../components/NavNonVie.vue'
+import NavVie    from '../components/NavVie.vue'
 import NavFooter from '../components/NavFooter.vue'
 
 const route  = useRoute()
@@ -247,7 +247,7 @@ const router = useRouter()
 const backLabels = {
   '/kinda':          'Retour à NSIA Kinda',
   '/offres-non-vie': 'Retour aux Offres NSIA ASSURANCES',
-  '/offres-vie':     'Retour aux Offres Vie',
+  '/offres-vie':     'Retour aux Offres NSIA VIE',
 }
 
 const backLabel = computed(() =>

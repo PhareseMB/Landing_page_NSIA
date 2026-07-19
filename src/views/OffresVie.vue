@@ -1,19 +1,19 @@
 <template>
   <div class="min-h-screen bg-white font-sans overflow-x-hidden">
 
-    <NavNonVie />
+    <NavVie />
 
     <!-- ═══ SECTION 1 : HERO ═══ -->
     <section class="bg-white relative overflow-hidden pb-12">
 
       <div class="absolute inset-0 flex items-center justify-center pointer-events-none select-none" aria-hidden="true">
-        <img src="/images/logo-nsia.png" alt="" class="w-[80%] md:w-[55%] object-contain opacity-[0.04]" />
+        <img src="/images/Logo Vie.png" alt="" class="w-[80%] md:w-[55%] object-contain opacity-[0.04]" />
       </div>
 
       <div class="w-full overflow-hidden bg-gray-100">
         <img
-          src="/images/Cover page Non Vie.png"
-          alt="NSIA Assurances – Protégez tout ce qui compte"
+          src="/images/Cover page NSIA Vie.png"
+          alt="NSIA Vie – Protégez votre avenir et celui de vos proches"
           class="w-full h-auto object-cover"
           loading="eager"
         />
@@ -23,14 +23,14 @@
         <h1 data-reveal="up"
             class="text-[#1c2445] font-black uppercase leading-tight mb-4 md:whitespace-nowrap"
             style="font-size: clamp(1.4rem, 2.6vw, 2.2rem);">
-          PROTEGEZ TOUT CE QUI <span style="color: #C89B2C;">COMPTE.</span>
+          CONSTRUISEZ VOTRE <span style="color: #C89B2C;">AVENIR,</span> PROTÉGEZ L'ESSENTIEL.
         </h1>
 
         <p data-reveal="up"
            class="text-[#1c2445] leading-relaxed mb-8 max-w-2xl"
            style="font-size: clamp(0.95rem, 1.4vw, 1.1rem); --reveal-delay: 100ms;">
-          Votre voiture, votre maison, votre entreprise, vos voyages… NSIA Assurances Gabon vous
-          accompagne avec des garanties simples, utiles et pensées pour votre tranquillité.
+          Épargne, retraite, éducation, prévoyance… NSIA Vie Gabon vous accompagne à chaque
+          étape de la vie avec des solutions adaptées à vos besoins et à votre budget.
         </p>
 
         <a href="https://eur05.safelinks.protection.outlook.com/?url=https%3A%2F%2Fforms.office.com%2FPages%2FResponsePage.aspx%3Fid%3D0pJwRgt54U2bPjizhOsqIaiEtWUpoLBEmGw3567pJgdUMjBNT0FWVUxRNlhPVE9VWlMyNEZDMVRaVC4u&data=05%7C02%7Cjeremie.mboma%40nsiaassurances.com%7Ce8d437cf82bd4381b30a08dec7113b7b%7C467092d2790b4de19b3e38b384eb2a21%7C1%7C0%7C639167074330795549%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=IIaOh9KkJUhm02qr3OkHPr02LUnc5KfdfUyMOQrR55w%3D&reserved=0"
@@ -41,13 +41,12 @@
                    bg-gradient-to-b from-[#eef2fa] to-[#cfd9ef] border border-white shadow-md
                    hover:-translate-y-0.5"
             style="--reveal-delay: 240ms;">
-         
           Souscrire maintenant
-         </a>
+        </a>
       </div>
     </section>
 
-    <!-- ═══ SECTION 2 : NOS OFFRES NON VIE ═══ -->
+    <!-- ═══ SECTION 2 : NOS OFFRES VIE ═══ -->
     <section class="px-5 py-12 md:px-10 lg:px-16 bg-white">
 
       <p data-reveal="up"
@@ -59,14 +58,14 @@
       <h2 data-reveal="up"
           class="text-[#1c2445] font-black leading-tight mb-4"
           style="font-size: clamp(1.5rem, 2.8vw, 2.2rem); --reveal-delay: 80ms;">
-        Une protection pour chaque moment de votre vie
+        Une solution pour chaque projet de vie
       </h2>
 
       <p data-reveal="up"
          class="text-[#1c2445] mb-8 max-w-2xl"
          style="font-size: clamp(0.9rem, 1.3vw, 1rem); --reveal-delay: 160ms; text-align: justify;">
-        Choisissez l'assurance qui vous correspond. Souscription simple, garanties
-        claires, et un accompagnement à chaque étape.
+        Choisissez la couverture qui correspond à vos objectifs. Épargne, protection,
+        retraite ou prévoyance — nous avons la solution qu'il vous faut.
       </p>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
@@ -82,7 +81,7 @@
       </div>
     </section>
 
-    <!-- ═══ SECTION 3 : POURQUOI NSIA ? ═══ -->
+    <!-- ═══ SECTION 3 : POURQUOI NSIA VIE ? ═══ -->
     <section class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 px-5 py-10 md:py-14 md:px-10 lg:px-20 bg-white items-center">
 
       <div class="flex flex-col">
@@ -90,19 +89,19 @@
         <p data-reveal="up"
            class="font-bold uppercase mb-3"
            style="color: #C89B2C; font-size: 0.8rem; letter-spacing: 0.1em;">
-          POURQUOI NSIA ?
+          POURQUOI NSIA VIE ?
         </p>
 
         <h2 data-reveal="up"
             class="text-[#1c2445] font-black mb-3"
             style="font-size: clamp(1.4rem, 2.5vw, 2rem); --reveal-delay: 80ms;">
-          La sérénité, c'est notre métier
+          Des solutions adaptées à chaque projet de vie
         </h2>
 
         <p data-reveal="up"
            class="text-[#54607a] mb-8 leading-relaxed"
            style="font-size: clamp(0.9rem, 1.3vw, 1rem); --reveal-delay: 160ms;">
-          Un acteur de référence de l'assurance en Afrique, à vos côtés au quotidien.
+          NSIA Vie vous accompagne dans la préparation de votre avenir, la protection de vos proches et la sécurisation de vos projets personnels ou professionnels.
         </p>
 
         <ul data-stagger class="space-y-4 mb-10">
@@ -118,7 +117,7 @@
 
         <div data-reveal="up">
           <h3 class="text-[#1c2445] font-black mb-5 md:whitespace-nowrap" style="font-size: clamp(1.2rem, 1.8vw, 1.4rem);">
-            Prêt à être <span style="color: #C89B2C;">protégé&nbsp;?</span>
+            Vous souhaitez construire <span style="color: #C89B2C;">votre avenir&nbsp;?</span>
           </h3>
           <a href="#"
              class="flex sm:inline-flex items-center justify-center font-bold px-6 py-3 text-white transition-opacity hover:opacity-90"
@@ -132,7 +131,7 @@
         <div class="w-full max-w-3xl bg-gray-50 rounded-2xl overflow-hidden flex items-center justify-center p-6">
           <img
             src="/images/couverture.svg"
-            alt="Famille protégée par NSIA"
+            alt="Famille protégée par NSIA Vie"
             class="w-full h-auto object-contain"
             loading="lazy"
           />
@@ -148,61 +147,75 @@
 
 <script setup>
 import { useReveal } from '../composables/useReveal'
-import NavNonVie  from '../components/NavNonVie.vue'
-import NavFooter   from '../components/NavFooter.vue'
-import OffreCard   from '../components/OffreCard.vue'
+import NavVie    from '../components/NavVie.vue'
+import NavFooter from '../components/NavFooter.vue'
+import OffreCard from '../components/OffreCard.vue'
 
 useReveal()
 
 const offres = [
   {
-    icon:        '/images/Auto.svg',
-    label:       'AUTO',
-    titre:       "Roulez l'esprit tranquille.",
-    description: "Assurez votre véhicule contre les imprévus de la route et bénéficiez d'un accompagnement adapté en cas de besoin.",
+    icon:        '/images/Landing page NSIA VIE/14.svg',
+    label:       'ÉPARGNE VIE',
+    titre:       'Maintenez votre niveau de vie à la retraite.',
+    description: "Constituez progressivement une retraite complémentaire et préparez vos revenus futurs avec une solution adaptée à vos objectifs.",
     delay: 0,
   },
   {
-    icon:        '/images/Voyage.svg',
-    label:       'VOYAGE',
-    titre:       'Partez sereinement, où que vous alliez.',
-    description: "Profitez d'une couverture adaptée face aux imprévus de santé, d'assistance ou d'urgence lors de vos déplacements.",
+    icon:        '/images/Landing page NSIA VIE/13.svg',
+    label:       'NSIA LIBRE RETRAITE',
+    titre:       'Préparez votre avenir en toute liberté.',
+    description: "Constituez un capital de fin de carrière ou un complément de retraite grâce à une épargne flexible et sécurisée.",
     delay: 80,
   },
   {
-    icon:        '/images/MULTIRISQUE HABITATION.svg',
-    label:       'MULTIRISQUE HABITATION',
-    titre:       "Votre maison mérite d'être protégée.",
-    description: "Couvrez votre logement et vos biens contre les principaux risques du quotidien : incendie, dégâts des eaux, vol et autres sinistres.",
+    icon:        '/images/Landing page NSIA VIE/10.svg',
+    label:       'ÉPARGNE PLUS',
+    titre:       "Chaque épargne compte pour un futur plus serein.",
+    description: "Épargnez pour financer vos projets importants : études, mariage, achat de véhicule, logement ou tout autre objectif de vie.",
     delay: 160,
   },
   {
-    icon:        '/images/INDIVIDUELLE ACCIDENT.svg',
-    label:       'INDIVIDUELLE ACCIDENT',
-    titre:       'Un accident ne prévient pas. Anticipez.',
-    description: "Protégez-vous ainsi que vos proches avec une indemnisation prévue en cas d'accident.",
+    icon:        '/images/Landing page NSIA VIE/11.svg',
+    label:       'NSIA PESSU PESSU',
+    titre:       'Commencez à épargner, même avec un petit montant.',
+    description: "Avec une épargne accessible dès 1 500 FCFA, avancez pas à pas vers vos projets tout en protégeant votre capital.",
     delay: 240,
   },
   {
-    icon:        '/images/MULTIRISQUE PROFESSIONNELLE.svg',
-    label:       'MULTIRISQUE PROFESSIONNELLE',
-    titre:       'Sécurisez votre activité professionnelle.',
-    description: "Protégez votre entreprise, vos biens, vos responsabilités et votre continuité d'activité face aux imprévus.",
+    icon:        '/images/Landing page NSIA VIE/12.svg',
+    label:       'NSIA ÉTUDES',
+    titre:       'Préparez l’avenir de votre enfant dès maintenant.',
+    description: "Garantissez à votre enfant une bourse d’études pour l’accompagner dans son parcours scolaire et universitaire.",
     delay: 320,
   },
   {
-    icon:        '/images/RC CHEF DE FAMILLE.svg',
-    label:       'RC CHEF DE FAMILLE',
-    titre:       'Un incident du quotidien peut coûter cher.',
-    description: "Protégez votre responsabilité et celle de votre foyer en cas de dommage causé à un tiers.",
+    icon:        '/images/Landing page NSIA VIE/6.svg',
+    label:       'NSIA ASSISTANCE FUNÉRAILLES',
+    titre:       'Préservez la tranquillité de vos proches.',
+    description: "Anticipez les frais liés aux obsèques et offrez à votre famille un accompagnement financier dans les moments difficiles.",
     delay: 400,
+  },
+  {
+    icon:        '/images/Landing page NSIA VIE/9.svg',
+    label:       'NSIA RETRAITE PRESTIGE',
+    titre:       'Préparez votre retraite avec sérénité et privilèges.',
+    description: "Avec NSIA Retraite Prestige, préparez votre avenir tout en accédant à des avantages privilégiés.",
+    delay: 480,
+  },
+  {
+    icon:        '/images/Landing page NSIA VIE/8.svg',
+    label:       'NSIA HOMME CLÉ',
+    titre:       'Protégez la continuité de votre entreprise.',
+    description: "Sécurisez votre activité face à l’absence ou à la disparition d’une personne essentielle à son fonctionnement.",
+    delay: 560,
   },
 ]
 
 const pointsForts = [
-  'Souscription en ligne',
-  'Réseau de proximité',
-  'Garanties claires',
-  'Indemnisation rapide',
+  'Épargne accessible',
+  'Protection des proches',
+  'Préparation de l’avenirs',
+  'Accompagnement personnalisé',
 ]
 </script>

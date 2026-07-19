@@ -4,6 +4,8 @@ import PageEnCreation from '../views/PageEnCreation.vue'
 import Kinda from '../views/Kinda.vue'
 import PolitiqueConfidentialite from '../views/PolitiqueConfidentialite.vue'
 import OffresNonVie from '../views/OffresNonVie.vue'
+import OffresVie from '../views/OffresVie.vue'
+import PolitiqueConfidentialiteVie from '../views/PolitiqueConfidentialiteVie.vue'
 
 const routes = [
   {
@@ -27,10 +29,21 @@ const routes = [
     component: PolitiqueConfidentialite,
   },
   {
+    path: '/politique-confidentialite/vie',
+    name: 'politique-confidentialite-vie',
+    component: PolitiqueConfidentialiteVie,
+  },
+  {
     path: '/offres-non-vie',
     name: 'offres-non-vie',
     component: OffresNonVie,
   },
+  {
+    path: '/offres-vie',
+    name: 'offres-vie',
+    component: OffresVie,
+  },
+  
 ]
 
 export default createRouter({
