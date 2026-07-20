@@ -33,7 +33,7 @@
           étape de la vie avec des solutions adaptées à vos besoins et à votre budget.
         </p>
 
-        <a href="https://eur05.safelinks.protection.outlook.com/?url=https%3A%2F%2Fforms.office.com%2FPages%2FResponsePage.aspx%3Fid%3D0pJwRgt54U2bPjizhOsqIaiEtWUpoLBEmGw3567pJgdUMjBNT0FWVUxRNlhPVE9VWlMyNEZDMVRaVC4u&data=05%7C02%7Cjeremie.mboma%40nsiaassurances.com%7Ce8d437cf82bd4381b30a08dec7113b7b%7C467092d2790b4de19b3e38b384eb2a21%7C1%7C0%7C639167074330795549%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=IIaOh9KkJUhm02qr3OkHPr02LUnc5KfdfUyMOQrR55w%3D&reserved=0"
+        <a href="https://eur05.safelinks.protection.outlook.com/?url=https%3A%2F%2Fforms.office.com%2FPages%2FResponsePage.aspx%3Fid%3D0pJwRgt54U2bPjizhOsqIaiEtWUpoLBEmGw3567pJgdUQjFEVDhaU0k4V1YxN0RDRlVLQVJTM1NMUi4u&data=05%7C02%7Cjeremie.mboma%40nsiaassurances.com%7Cd2e9bb1b3e964e3be7c108dee6312595%7C467092d2790b4de19b3e38b384eb2a21%7C1%7C0%7C639201296027618886%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=A7Bsl4GInZyA%2BWdqrDjPowcfMhljwEs3eDQY4RRn6u8%3D&reserved=0"
             target="_blank"
             rel="noopener noreferrer"
             data-reveal="scale"
@@ -119,7 +119,7 @@
           <h3 class="text-[#1c2445] font-black mb-5 md:whitespace-nowrap" style="font-size: clamp(1.2rem, 1.8vw, 1.4rem);">
             Vous souhaitez construire <span style="color: #C89B2C;">votre avenir&nbsp;?</span>
           </h3>
-          <a href="#"
+          <a href="https://eur05.safelinks.protection.outlook.com/?url=https%3A%2F%2Fforms.office.com%2FPages%2FResponsePage.aspx%3Fid%3D0pJwRgt54U2bPjizhOsqIaiEtWUpoLBEmGw3567pJgdUQjFEVDhaU0k4V1YxN0RDRlVLQVJTM1NMUi4u&data=05%7C02%7Cjeremie.mboma%40nsiaassurances.com%7Cd2e9bb1b3e964e3be7c108dee6312595%7C467092d2790b4de19b3e38b384eb2a21%7C1%7C0%7C639201296027618886%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=A7Bsl4GInZyA%2BWdqrDjPowcfMhljwEs3eDQY4RRn6u8%3D&reserved=0"
              class="flex sm:inline-flex items-center justify-center font-bold px-6 py-3 text-white transition-opacity hover:opacity-90"
              style="background-color: #1c2445; border-radius: 8px;">
             Envoyer ma demande

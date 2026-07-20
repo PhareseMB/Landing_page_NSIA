@@ -2,7 +2,7 @@
   <header class="bg-white/95 backdrop-blur border-b border-gray-100 sticky top-0 z-50">
     <div class="flex items-center justify-between px-5 py-3 md:px-10 relative">
 
-      <RouterLink to="/" class="shrink-0">
+      <RouterLink :to="route.path" class="shrink-0">
         <img
           :src="logoSrc"
           :alt="logoAlt"
