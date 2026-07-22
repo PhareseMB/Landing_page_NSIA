@@ -58,7 +58,7 @@
       <h2 data-reveal="up"
           class="text-[#1c2445] font-black leading-tight mb-4"
           style="font-size: clamp(1.5rem, 2.8vw, 2.2rem); --reveal-delay: 80ms;">
-        Une solution pour chaque projet de vie
+        Une solution pour chaque projet de vie.
       </h2>
 
       <p data-reveal="up"
@@ -95,7 +95,7 @@
         <h2 data-reveal="up"
             class="text-[#1c2445] font-black mb-3"
             style="font-size: clamp(1.4rem, 2.5vw, 2rem); --reveal-delay: 80ms;">
-          Des solutions adaptées à chaque projet de vie
+          Des solutions adaptées à chaque projet de vie.
         </h2>
 
         <p data-reveal="up"
@@ -215,7 +215,7 @@ const offres = [
 const pointsForts = [
   'Épargne accessible',
   'Protection des proches',
-  'Préparation de l’avenirs',
+  'Préparation de l’avenir',
   'Accompagnement personnalisé',
 ]
 </script>
