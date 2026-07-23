@@ -147,12 +147,20 @@
 </template>
 
 <script setup>
-import { useReveal } from '../composables/useReveal'
+import { useReveal }  from '../composables/useReveal'
+import { useSeoMeta } from '../composables/useSeoMeta'
 import NavNonVie  from '../components/NavNonVie.vue'
-import NavFooter   from '../components/NavFooter.vue'
-import OffreCard   from '../components/OffreCard.vue'
+import NavFooter  from '../components/NavFooter.vue'
+import OffreCard  from '../components/OffreCard.vue'
 
 useReveal()
+
+useSeoMeta({
+  title:       'Offres Non Vie – NSIA Assurances Gabon',
+  description: 'Auto, Habitation, Voyage, Multirisque Professionnelle… Protégez tout ce qui compte avec NSIA Assurances Gabon.',
+  image:       '/images/Cover page Non Vie.png',
+  url:         '/offres-non-vie',
+})
 
 const offres = [
   {

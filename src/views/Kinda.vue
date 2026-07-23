@@ -224,9 +224,17 @@
 </template>
 
 <script setup>
-import { useReveal } from '../composables/useReveal'
+import { useReveal }  from '../composables/useReveal'
+import { useSeoMeta } from '../composables/useSeoMeta'
 import NavVie    from '../components/NavVie.vue'
 import NavFooter from '../components/NavFooter.vue'
 
 useReveal()
+
+useSeoMeta({
+  title:       'NSIA Kinda – Tu glisses mais tu ne tombes pas',
+  description: 'Pour seulement 15 000 FCFA par an, bénéficiez d\'une protection, d\'un appui pour vos proches, tout en épargnant à votre rythme.',
+  image:       '/images/og-image.jpg',
+  url:         '/kinda',
+})
 </script>

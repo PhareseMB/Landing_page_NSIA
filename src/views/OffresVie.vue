@@ -146,12 +146,20 @@
 </template>
 
 <script setup>
-import { useReveal } from '../composables/useReveal'
+import { useReveal }   from '../composables/useReveal'
+import { useSeoMeta }  from '../composables/useSeoMeta'
 import NavVie    from '../components/NavVie.vue'
 import NavFooter from '../components/NavFooter.vue'
 import OffreCard from '../components/OffreCard.vue'
 
 useReveal()
+
+useSeoMeta({
+  title:       'Offres Vie – NSIA Vie Gabon',
+  description: 'Épargne, retraite, éducation, prévoyance… Découvrez nos solutions d\'assurance vie adaptées à chaque étape de votre vie.',
+  image:       '/images/Cover page NSIA Vie.png',
+  url:         '/offres-vie',
+})
 
 const offres = [
   {

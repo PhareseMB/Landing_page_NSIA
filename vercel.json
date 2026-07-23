@@ -1,5 +1,13 @@
 {
+  "functions": {
+    "api/meta-inject.js": {
+      "includeFiles": "dist/**"
+    }
+  },
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/offres-vie",     "destination": "/api/meta-inject?route=/offres-vie" },
+    { "source": "/offres-non-vie", "destination": "/api/meta-inject?route=/offres-non-vie" },
+    { "source": "/kinda",          "destination": "/api/meta-inject?route=/kinda" },
+    { "source": "/(.*)",           "destination": "/index.html" }
   ]
 }
